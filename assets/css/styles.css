@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "gilroy";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family:"chronicle" ;
+    src: url(../fonts/Chronicle\ Display\ Semibold.otf);
+}
+
+.logo , .navbar , .login {
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    color: white;
+}
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.account {
+    color: white;
+}
+.logo {
+    padding-left: 2rem;
+
+}
+
+.navbar {
+    padding-left: 40rem;
+
+}
+.login a {
+    text-decoration: none;
+}
+.login {
+    padding-left: 40rem;
+}
+
+
+.image-banner {
+    background-image: url(../images/banner.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+
+.aside-p , .insta , .twit {
+display: block;
+
+
+}
+
+.asides {
+    border-left: 2rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.aside-p p {
+    writing-mode: vertical-rl;
+}
+
+
+.title , .scroll {
+    display: block;
+}
+
+.asides {
+    left: 3rem;
+}
+
+
+.ancres aside {
+    left: 100rem;
+    bottom: 40rem;
+    writing-mode: vertical-rl;
+    position: fixed;   
+}
+
+.row-section , footer {
+    background-color: #0B1D26 ;
+
+}
+
+article , .photo {
+    display: inline-block;
+}
+.image {
+    width: 566px;
+    height: 720px;
+
+}
+article {
+    width: 40%;
+    padding: 2rem;
+    vertical-align: 20rem;
+}
+.photo {
+    width: 40%;
+}
+
+.photo img {
+    width: 35rem;
+    height: auto;
+}
+
+h2 {
+    color: yellow;
+}
+
+h1 , h3 , p , a , h4 {
+    color: white;
+}
+
+h4 {
+    height: 240px;
+    width: 276px;
+}
+
+.midle {
+    padding: 5rem 0 0 35rem;
+}
+
+
+.ancres {
+    padding: 0 2rem 0 0;
+}
+
+.fmidle ul li a {
+    text-decoration: none;
+}
+
+.flast ul li a {
+    text-decoration: none;
+}
+.fstart , .fmidle , .flast {
+    display: inline-block;
+}
+
+.fmidle ul li {
+   list-style-type: none;
+}
+
+.flast ul li {
+    list-style-type: none;
+}
+
+p , h2 {
+    font-family: "gilroy";
+}
+
+h1 , h3 {
+    font-family: "chronicle";
+}
+
+.fstart {
+    padding-left: 5rem;
+}
+
+.fmidle {
+    padding-left: 30rem;
+}
+
+.flast {
+    padding-left: 40rem;
+}
+header {
+    position: absolute;
+
+}
+
+h4 {
+    font-size: 200px;
+    opacity: 0.1;
+
+}
+.section1 {
+    position: relative;
+}
+h4 {
+    position: relative;
+    z-index: 1;
+    top: 100px;
+}
+.get , .hik , .unde {
+    position: absolute;
+    z-index: 3;
+}
+
